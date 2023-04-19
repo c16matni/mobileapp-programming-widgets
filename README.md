@@ -2,12 +2,37 @@
 # Rapport
 
 Lagt till en vertikal Linear Layout där jag sedan kan lägga till knappar och text
-
+lagt till en TextView, ImageButton och en Button och även ändrat namn på dessa för att vinte vara defult
+fixade även så den margin attribute va 60dp från toppen 
 ```
-   <LinearLayout
+  <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"></LinearLayout>
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="uppgift 3 topp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/abc_vector_test" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="151dp"
+            android:text="knapp till uppgift 3" />
+
+    </LinearLayout>
+
 ```
 
 
