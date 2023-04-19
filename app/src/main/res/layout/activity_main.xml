@@ -23,11 +23,11 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="-16dp">
 
-        <TextView
-            android:id="@+id/textView3"
+        <Button
+            android:id="@+id/button3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="uppgift 3 topp" />
+            android:layout_height="151dp"
+            android:text="knapp till uppgift 3" />
 
         <ImageButton
             android:id="@+id/imageButton"
@@ -35,11 +35,11 @@
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/abc_vector_test" />
 
-        <Button
-            android:id="@+id/button3"
+        <TextView
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="151dp"
-            android:text="knapp till uppgift 3" />
+            android:layout_height="wrap_content"
+            android:text="uppgift 3 topp" />
 
     </LinearLayout>
 
