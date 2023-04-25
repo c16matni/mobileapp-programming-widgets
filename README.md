@@ -38,7 +38,7 @@ kastade runt min wigets lite från den förra commiten även då de dem redan va
 
 
 
-![](Screenshot_20230425_165549)
+![](Screenshot_20230425_165549.png)
 
 Läs gärna:
 
